@@ -1,0 +1,44 @@
+[
+  {
+    "question":"Which sorting algorithm does not change the sequence of similar content in which they appear after sorting the contents?",
+    "option1":"Quicksort",
+    "option2":"Stable sort",
+    "option3":"Unstable sort",
+    "correctAnswer":"option2"
+  },
+  {
+    "question": "Which of the following is NOT a built-in data type?",
+    "option1":"Stack",
+    "option2":"Boolean",
+    "option3":"Floating(Decimal Numbers)",
+    "correctAnswer":"option1"
+  },
+  {
+    "question": "What does Asymptotic analysis of an algorithm refer to?",
+    "option1":"Defining the mathematical framing of an algorithm's run-time performance",
+    "option2":"The formal way to express the upper bound of an algorithm's running time.",
+    "option3":"An analysis designed to achieve optimum solution for a given problem.",
+    "correctAnswer":"option1"
+  },
+  {
+    "question": "What is a binary search tree?",
+    "option1":"Used to implement an associative array, a structure that can map keys to values",
+    "option2":"An ordered set of data elements, each containing a link to its successor ",
+    "option3":"Each node has at most two children, referred to as the left child and right child.",
+    "correctAnswer":"option3"
+  },
+  {
+    "question": "Which one is NOT a divide and conquer data approach?",
+    "option1":"Quick sort",
+    "option2":"Bubble Sort",
+    "option3":"Binary Search",
+    "correctAnswer":"option2"
+  },
+  {
+    "question": "A byte represents a group of:",
+    "option1":"8",
+    "option2":"10",
+    "option3":"22",
+    "correctAnswer":"option1"
+  }
+]

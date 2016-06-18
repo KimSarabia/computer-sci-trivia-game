@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CS HERO</title>
+    <link rel="stylesheet" href="/bower_components/sweetalert/dist/sweetalert.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/css/style.css" media="screen" title="no title" charset="utf-8">
+    <script src="/bower_components/sweetalert/dist/sweetalert.min.js" charset="utf-8"></script>
+    <script src="/bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+    <script src="/bower_components/socket.io-client/socket.io.js" charset="utf-8"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <div class="container center">
+        <!-- <div class="jumbotron"> -->
+            <h1 class="center">CS Hero</h1>
+            <h3 id='status'>You're not in the game. Please check back later.</h3>
+            <div class='questionTitle center'></div>
+            <br>
+            <hr>
+            <div id="answersButtons">
+              <div class="row center">
+                <button class="btn btn-lg btn-default answersButton" style="border-radius:100%;" data-answer='option1'>A</button>
+                <div id="option1"></div>
+                <br>
+                <hr>
+                <button class="btn btn-lg btn-default answersButton" style="border-radius:100%;" data-answer='option2'>B</button>
+                <div id="option2"></div>
+                <br>
+                <hr>
+                <button class="btn btn-lg btn-default answersButton" style="border-radius:100%;" data-answer='option3'>C</button>
+                <div id="option3"></div>
+                <br>
+                <hr>
+              </div>
+
+            </div>
+        <!-- </div> -->
+    </div>
+</body>
+</html>
